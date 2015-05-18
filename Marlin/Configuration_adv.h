@@ -48,8 +48,8 @@
 //if the machine is idle, and the temperature over MINTEMP, every couple of SECONDS some filament is extruded
 //#define EXTRUDER_RUNOUT_PREVENT
 #define EXTRUDER_RUNOUT_MINTEMP 190
-#define EXTRUDER_RUNOUT_SECONDS 30.
-#define EXTRUDER_RUNOUT_ESTEPS 14. //mm filament
+#define EXTRUDER_RUNOUT_SECONDS 60.
+#define EXTRUDER_RUNOUT_ESTEPS 5. //mm filament
 #define EXTRUDER_RUNOUT_SPEED 1500.  //extrusion speed
 #define EXTRUDER_RUNOUT_EXTRUDE 100
 
@@ -87,7 +87,7 @@
 //===========================================================================
 
 #define ENDSTOPS_ONLY_FOR_HOMING // If defined the endstops will only be used for homing
-
+#define EXTRUDERS 1
 
 //// AUTOSET LOCATIONS OF LIMIT SWITCHES
 //// Added by ZetaPhoenix 09-15-2012
